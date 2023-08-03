@@ -1,0 +1,27 @@
+:root {
+  --fc-orange: #fcc419;
+  --fc-dark: #161616;
+  --fc-light: #ffffff;
+
+  --bs-dark-rgb: 22, 22, 22;
+}
+
+.navbar-nav .nav-link.active {
+  color: var(--fc-orange);
+}
+
+.btn-warning {
+  --bs-btn-bg: var(--fc-orange);
+}
+
+.btn-outline-warning {
+  --bs-btn-border-color: var(--fc-orange);
+  --bs-btn-hover-bg: var(--fc-orange);
+  --bs-btn-active-bg: var(--fc-orange);
+  --bs-btn-active-border-color: var(--fc-orange);
+}
+
+.nav-link {
+  --bs-nav-link-color: #e0e0e0;
+  --bs-nav-link-hover-color: var(--fc-light);
+}
