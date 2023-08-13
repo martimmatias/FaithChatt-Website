@@ -4,16 +4,6 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>FaithChatt</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.25.0/tabler-icons.min.css"
-    />
     <meta
       name="keywords"
       content="FaithChatt, Discord server, Christian Discord Server, Online Christian Fellowship, Online Bible Study"
@@ -22,7 +12,7 @@
       name="description"
       content="FaithChatt is a Christ-centered ministry that desires to reach people around the world with Biblical TRUTH and its application."
     />
-    <link rel="stylesheet" href="public/style.css" />
+    <%- include("head_links.ejs") %>
   </head>
   <body>
     <%- include("navbar.ejs", {active: "Home"}) %>
@@ -279,12 +269,6 @@
       </div>
     </section>
 
-    <%- include("footer.ejs") %>
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-      crossorigin="anonymous"
-    ></script>
+    <%- include("footer.ejs") %> <%- include("body_scripts.ejs") %>
   </body>
 </html>

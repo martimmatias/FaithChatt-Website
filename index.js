@@ -32,6 +32,10 @@ app.get("/", async (req, res) => {
   });
 });
 
+app.get("/what-we-believe", (req, res) => {
+  res.render("what_we_believe.ejs");
+});
+
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
 });
