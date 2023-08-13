@@ -36,6 +36,10 @@ app.get("/what-we-believe", (req, res) => {
   res.render("what_we_believe.ejs");
 });
 
+app.get("/support-us", (req, res) => {
+  res.render("support_us.ejs");
+});
+
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
 });

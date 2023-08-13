@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FaithChatt</title>
+    <meta
+      name="keywords"
+      content="FaithChatt, Discord server, Christian Discord Server, Online Christian Fellowship, Online Bible Study"
+    />
+    <meta
+      name="description"
+      content="FaithChatt is a Christ-centered ministry that desires to reach people around the world with Biblical TRUTH and its application."
+    />
+    <%- include("head_links.ejs") %>
+  </head>
+  <body>
+    <%- include("navbar.ejs", {active: "Support Us"}) %>
+    <img
+      style="position: relative; top: -56px; z-index: -10; width: 100%"
+      src="public/HorizontalWaveDivider.svg"
+    />
+    <div class="container text-center">
+      <h1 class="mb-4 display-3" style="margin-top: -32px">
+        How You Can Help Us
+      </h1>
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-4">
+          <p class="mb-5">
+            Are YOU being blessed by this server? Would you like to see it GROW
+            and minister to others?
+          </p>
+        </div>
+      </div>
+
+      <div class="row justify-content-around mb-5">
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+          <div
+            class="rounded-circle ratio ratio-1x1 mb-3"
+            style="
+              background-color: var(--fc-orange);
+              border: 0.6rem solid #f2f2f2;
+            "
+          >
+            <img
+              src="public/ph_hands-praying-bold.svg"
+              alt="Praying Hands"
+              class="py-3 px-3"
+            />
+          </div>
+          <h3>1. By Praying</h3>
+          <p>
+            Pray for us, or better still, join our Prayer Warriors and GET
+            INVOLVED!
+          </p>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+          <div
+            class="rounded-circle ratio ratio-1x1 mb-3"
+            style="
+              background-color: var(--fc-orange);
+              border: 0.6rem solid #f2f2f2;
+            "
+          >
+            <img src="public/tabler_world.svg" alt="World" class="py-3 px-3" />
+          </div>
+          <h3>2. By Sharing</h3>
+          <p>
+            Post our vanity
+            <u class="user-select-all">discord.gg/FaithChatt</u> link in your
+            profile.
+          </p>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+          <div
+            class="rounded-circle ratio ratio-1x1 mb-3"
+            style="
+              background-color: var(--fc-orange);
+              border: 0.6rem solid #f2f2f2;
+            "
+          >
+            <img
+              src="public/tabler_cash-banknote.svg"
+              alt="Cash Banknote"
+              class="py-3 px-3"
+            />
+          </div>
+          <h3>3. By Donating</h3>
+          <p>
+            Check out our subscription plans on
+            <a href="https://www.patreon.com/FaithChatt">Patreon</a> or
+            <a href="https://mee6.gg/m/839708279973478430">MEE6</a>.
+          </p>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-5">
+          <p>Please PRAY for this ministry.</p>
+          <p>
+            Subscriptions are being renewed EVERY month and you can CANCEL at
+            any time. Every donation is appreciated.
+          </p>
+          <p>Thanks for your support.</p>
+        </div>
+      </div>
+    </div>
+    <div class="mb-5" style="height: 1px"></div>
+    <%- include("footer.ejs") %> <%- include("body_scripts.ejs") %>
+  </body>
+</html>
