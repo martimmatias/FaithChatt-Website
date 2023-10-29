@@ -163,86 +163,57 @@
         class="container text-light text-center"
         style="padding-top: 4em; padding-bottom: 4em"
       >
-        <div class="row align-items-center justify-content-around">
+        <div class="row align-items-start justify-content-around">
           <div class="col-12">
             <h1 class="mb-5 display-4">Meet Our Professors</h1>
           </div>
-          <div class="col-12 col-md-5 col-lg-3 mx-0 mx-md-1 mx-lg-3">
-            <div
-              class="ratio ratio-1x1 rounded-circle"
-              style="border: 1rem solid var(--fc-orange)"
-            >
-              <img
-                src="public/professors/sigmund-a19OVaa2rzA-unsplash.jpg"
-                class="img-fluid rounded-circle"
-                alt=""
-                srcset=""
-                style="outline: 0.3rem solid var(--fc-light); object-fit: cover"
-              />
-            </div>
-            <h3 class="mt-3">Dr John Doe</h3>
-            <p class="fs-5 mb-5">
-              With 30 years in the faith, John has pastored three different
-              churches and achieved a PhD in theology.
-            </p>
-          </div>
-          <div class="col-12 col-md-5 col-lg-3 mx-0 mx-md-1 mx-lg-3">
-            <div
-              class="ratio ratio-1x1 rounded-circle"
-              style="border: 1rem solid var(--fc-orange)"
-            >
-              <img
-                src="public/professors/sigmund-a19OVaa2rzA-unsplash.jpg"
-                class="img-fluid rounded-circle"
-                alt=""
-                srcset=""
-                style="outline: 0.3rem solid var(--fc-light); object-fit: cover"
-              />
-            </div>
-            <h3 class="mt-3">Dr John Doe</h3>
-            <p class="fs-5 mb-5">
-              With 30 years in the faith, John has pastored three different
-              churches and achieved a PhD in theology.
-            </p>
-          </div>
-          <div class="col-12 col-md-5 col-lg-3 mx-0 mx-md-1 mx-lg-3">
-            <div
-              class="ratio ratio-1x1 rounded-circle"
-              style="border: 1rem solid var(--fc-orange)"
-            >
-              <img
-                src="public/professors/sigmund-a19OVaa2rzA-unsplash.jpg"
-                class="img-fluid rounded-circle"
-                alt=""
-                srcset=""
-                style="outline: 0.3rem solid var(--fc-light); object-fit: cover"
-              />
-            </div>
-            <h3 class="mt-3">Dr John Doe</h3>
-            <p class="fs-5 mb-5">
-              With 30 years in the faith, John has pastored three different
-              churches and achieved a PhD in theology.
-            </p>
-          </div>
-          <div class="col-12 col-md-5 col-lg-3 mx-0 mx-md-1 mx-lg-3">
-            <div
-              class="ratio ratio-1x1 rounded-circle"
-              style="border: 1rem solid var(--fc-orange)"
-            >
-              <img
-                src="public/professors/sigmund-a19OVaa2rzA-unsplash.jpg"
-                class="img-fluid rounded-circle"
-                alt=""
-                srcset=""
-                style="outline: 0.3rem solid var(--fc-light); object-fit: cover"
-              />
-            </div>
-            <h3 class="mt-3">Dr John Doe</h3>
-            <p class="fs-5 mb-5">
-              With 30 years in the faith, John has pastored three different
-              churches and achieved a PhD in theology.
-            </p>
-          </div>
+          <%- include("professor_column.ejs", { professorName: `Rev Dr D.R.
+          Fraley`, imageFileName: "DRFraley.jpg", professorBio: `RevDoc has been
+          a professing Christian for over 40+ years. He has served as a Youth
+          Minister, Sunday School Teacher, Small Group Leader, Minister, and
+          College/Seminary Professor for over 35+ years. He holds multiple
+          degrees from various colleges and institutions and he is currently
+          completing his second doctorate. He's been a lifelong gamer and
+          originally only used Discord for gaming and connecting with friends.
+          For the past two years his emphasis has shifted to ministry by leading
+          Bible studies on numerous servers and even helping found FaithChatt.
+          He lives in Tennessee with his wife and two of their three daughters.`
+          }) %> <%- include("professor_column.ejs", { professorName: `Rev Dr
+          Anthony C Baker`, imageFileName: "DrWatch.jpg", professorBio:
+          `Husband, dad, pastor, artist, and musician. Time Magazine's Person of
+          the Year in 2006 (no joke!). Loves coffee (big time), good movies, and
+          sarcastic humor. Holds a Doctorate in Ministry. Most importantly, a
+          servant of the Lord Jesus Christ. All glory belongs to Him! Matthew
+          5:16` }) %> <%- include("professor_column.ejs", { professorName:
+          `Alfonso Izaquirre Martinez`, imageFileName: "Poncho.png",
+          professorBio: `Alfonso Izaquirre Martinez, known online as "Poncho",
+          is a professing Christian since Dec. 7th, 2015. He's a regular
+          preacher and a -not so good- keyboard player at his Church since last
+          2020, where he also serves as a Teacher and has been prepared to be
+          ordained in the Youth Ministry in the following months. He's currently
+          studying his Bible and Theology Diploma at The Master's Academy
+          International. He's not that much into videogames, he likes reading
+          and chess. Three years ago, he joined "Luz Admirable", a
+          Spanish-speaking youth ministry in Mexico City where he started
+          teaching and preaching more often. In mid 2020, he and his friends
+          decided to found "Teología para Todos" (Theology for Everyone), a
+          youth christian coalition focused on teaching the Gospel of Christ,
+          full display to all peoples from every generation and cultural
+          background. Poncho lives in Mexico City, and his main hobby is to be
+          the President of his own self-proclaimed micronation called The
+          H.H.R.R. of Nisea.` }) %> <%- include("professor_column.ejs", {
+          professorName: `Steffen`, imageFileName: "Steffen.jpg", professorBio:
+          `Steffen has been a Christian all his life, 27 years so far. He was
+          baptized at 14 at a youth camp in Poland. He lives in Tennessee but is
+          a citizen of both France and the United States. He is currently
+          working as an independent contractor, and he has so far spent one year
+          at the Full Time Training in London - a seminary of sorts - and he is
+          planning on going back as soon as possible. He has served with youth
+          often, even during his high school years, and continues to do so now.
+          He loves God's Word, and the depths and riches that can be found
+          therein. That's why He has started doing online Bible studies - so
+          that what He has learned about the Bible can be passed on to others,
+          as it not only should, but must be.` }) %>
         </div>
       </div>
     </section>
@@ -270,5 +241,49 @@
     </section>
 
     <%- include("footer.ejs") %> <%- include("body_scripts.ejs") %>
+    <script defer>
+      function isElementInViewport(element) {
+        const rect = element.getBoundingClientRect();
+
+        return (
+          rect.top >= 0 &&
+          rect.left >= 0 &&
+          rect.bottom <=
+            (window.innerHeight || document.documentElement.clientHeight) &&
+          rect.right <=
+            (window.innerWidth || document.documentElement.clientWidth)
+        );
+      }
+
+      const professorBios = document.querySelectorAll(".professor-bio");
+
+      professorBios.forEach((professorBio) => {
+        const collapsed = professorBio.querySelector(
+          ".professor-bio-collapsed"
+        );
+        const collapsedAnchor = collapsed.querySelector("a");
+        const expanded = professorBio.querySelector(".professor-bio-expanded");
+        const expandedAnchor = expanded.querySelector("a");
+
+        if (
+          collapsed.textContent.length - collapsedAnchor.textContent.length <
+          350
+        ) {
+          collapsedAnchor.classList.add("d-none");
+        }
+
+        collapsedAnchor.onclick = () => {
+          collapsed.classList.add("d-none");
+          expanded.classList.remove("d-none");
+        };
+        expandedAnchor.onclick = () => {
+          collapsed.classList.remove("d-none");
+          expanded.classList.add("d-none");
+          if (!isElementInViewport(collapsed)) {
+            collapsed.scrollIntoView({ behavior: "smooth", block: "center" });
+          }
+        };
+      });
+    </script>
   </body>
 </html>

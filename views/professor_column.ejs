@@ -1,0 +1,30 @@
+<div class="col-12 col-md-5 col-lg-3 mx-0 mx-md-1 mx-lg-3">
+  <div
+    class="ratio ratio-1x1 rounded-circle"
+    style="border: 1rem solid var(--fc-orange)"
+  >
+    <img
+      src="public/professors/<%= imageFileName %>"
+      class="img-fluid rounded-circle"
+      alt=""
+      srcset=""
+      style="outline: 0.3rem solid var(--fc-light); object-fit: cover"
+    />
+  </div>
+  <h3 class="mt-3"><%= professorName %></h3>
+  <div class="professor-bio mb-5">
+    <p class="professor-bio-collapsed">
+      <%= professorBio.substring(0, 350) %><% if (professorBio.length > 350)
+      {%>...&nbsp; <%} %>
+      <a class="text-decoration-underline text-white" role="button">
+        Continue Reading
+      </a>
+    </p>
+    <p class="professor-bio-expanded d-none">
+      <%= professorBio %>
+      <a class="text-decoration-underline text-white" role="button">
+        Collapse
+      </a>
+    </p>
+  </div>
+</div>
